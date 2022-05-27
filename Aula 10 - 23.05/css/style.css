@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.GreenBox{
+    position:relative;
+    background-color: #1CD1B0;
+    width: 1024px;
+    height: 40px;
+    padding-top:10px;
+    padding-left:15px;
+    font-family: 'Arial';
+}
+
+.BlueBox{
+    position: sticky;
+    top: 0px;
+    width: 1024px;
+    height: 100px;
+    background: #00669F;
+}
+
+.BlueBoxTexto{
+    font-family: 'Arial';
+    font-style: normal;
+    padding-top:30px;
+    padding-left:15px;
+}
+
+
+.Cards{
+    position: relative;
+    bottom: 350px;
+}
+
+.CardBatman{
+    position:absolute;
+    flex-wrap: wrap;
+    width: 374px;
+    height: 570px;
+    left: 112px;
+    top: 441.8px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.CardArleq{
+    position:absolute;
+    flex-wrap: wrap;
+    width: 374px;
+    height: 570px;
+    left: 572px;
+    top: 441.8px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.LikeBatman{
+    position: relative;
+    z-index: 50;
+    left: 10px;
+    top: 10px;
+}
+
+.LikeArleq{
+    position: relative;
+    z-index: 50;
+    left: 10px;
+    top: 10px;
+}
+
+.ImgBatman{
+    position:absolute;
+    z-index: 10;
+    width: 374px;
+    height: 217.81px;
+    top: -5px;
+
+    background: url(/imgs/BgBatman.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.ImgArleq{
+    position:absolute;
+    z-index: 10;
+    width: 374px;
+    height: 217.81px;
+    top: -5px;
+
+    background: url(/imgs/BgArleq.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.PerfilBatman{
+    position:relative;
+    z-index: 80;
+    width: auto;
+    height: auto;
+    left: 33%;
+    top: 20%;
+    border-radius: 50%;
+}
+
+.PerfilArleq{
+    position:relative;
+    z-index: 80;
+    width: auto;
+    height: auto;
+    left: 33%;
+    top: 20%;
+    border-radius: 50%;
+}
+
+.TituloBatman{
+    position:relative;
+    left: 0px;
+    top: 120px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #000000;
+}
+
+.TituloArleq{
+    position:relative;
+    left: 0px;
+    top: 120px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #000000;
+}
+
+.TextoBatman{
+    position: relative;
+    width: 300px;
+    height: 127.53px;
+    left: 35px;
+    top: 135px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+}
+
+.TextoArleq{
+    position: relative;
+    width: 300px;
+    height: 127.53px;
+    left: 35px;
+    top: 135px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+}
+
+.BotaoBatman{
+    position: relative;
+    width: 145.34px;
+    height: 54.76px;
+    left: 120px;
+    top: 140px;
+
+    background: #00669F;
+    border-color: #00659f00;
+    color:white;
+    font-family: 'Arial';
+}
+
+.BotaoArleq{
+    position: relative;
+    width: 145.34px;
+    height: 54.76px;
+    left: 120px;
+    top: 140px; 
+
+    background: #00669F;
+    border-color: #00659f00;
+    color:white;
+    font-family: 'Arial';
+}
+
+.BgFooterTexto{
+    position:relative;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: justify;
+    padding-top:15px;
+    padding-left:15px;
+
+    color: #FFF9F9;
+}
