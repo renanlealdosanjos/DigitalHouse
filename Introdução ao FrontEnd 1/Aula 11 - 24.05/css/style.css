@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.Header{
+display: flex;
+justify-content: space-between;
+height: 100px;
+
+background: black;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.LogoSuperior{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-left: 30px;
+}
+
+.Nome{
+margin-left: 10px;
+font-family: 'Gotham';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #39B24A;
+}
+
+.NomePizza{
+    color: #39B24A;
+    margin: 0px;
+    padding: 0px;
+}
+
+.NomeE{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.NomeFront{
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+.MenuSuperior{
+    display: flex;
+    color:white;
+    margin-right: 30px;
+    width: 30%;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.CaixaBody{
+    background-color:gainsboro;
+    height:100%;
+    width: fit-content;
+}
+
+.CaixaMain{
+    display:flex;
+    margin-top:5%;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-bottom:5%;
+    justify-content: space-between;
+    width: 986px;
+}
+
+.Caixa1{
+    height: 350px;
+    background: url(/imgs/delivery.png);
+    border-radius: 5px;
+    height: 350px;
+    width: 490px;
+    margin-right: 0px;
+}
+
+.TextoCaixa1{
+    display: flex;
+    justify-content: center;
+    width: 485px;
+    height: 28px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FC200C;
+}
+
+.Texto2Caixa1{
+    color:white;
+}
+
+.Caixa2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 350px;
+    width: 490px;
+    margin-left: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.SubCaixa1{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Cardapio{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: red;
+}
+
+.SubCaixa2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 385px;
+    height: 250px;
+    font-family: "Gotham";
+}
+
+.Top5{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:-20px;
+}
+
+.ListaTop5{
+    font-size: medium;
+}
+
+.ImgPizza{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pizza{
+    width: 50%;
+    height: 129px;
+    background: url(falling.png);
+    border-radius: 5px;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: "Gotham";
+    font-style: normal;
+    font-size: 10pt;
+    width: 1024px;
+    height: 150px;
+
+}
+
+.MenuRodape{
+    margin-left: 30px;
+}
+
+.LogoInferior{
+    display: flex;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
