@@ -1,0 +1,500 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: blue;
+    width: 100vw;
+}
+
+.H1Desconto{
+    display: flex;
+    align-items: center;
+
+    background-color: #D1891C;
+    color:#333333;
+    font-size: 1.2rem;
+    font-family: 'Tahoma';
+
+    width: 100vw;
+    height: 5vh;
+    padding-left: 2vw;
+}
+
+.H2Card{
+    display: flex;
+    align-items: center;
+
+    background-color: #00669F;
+    color: white;
+    font-family: 'Tahoma';
+    font-size: 2rem;
+
+    width: 100vw;
+    height: 20vh;
+    padding-left: 2vw;
+}
+
+.FaixaMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+
+    background-color: white;
+}
+
+.CaixaHeroi{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    width: 30vw;
+    height:80vh;
+
+    margin-inline: 10vw;
+
+    background-color: #F3F3F3;
+    margin-bottom: 10vh;
+}
+
+.CaixaTexto{
+    display: flex;
+    position: absolute;
+
+    justify-content: flex-start;
+    align-content: center;
+    justify-items: center;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    width: 30vw;
+    height: 50vh;
+
+    margin-top: 30vh;
+}
+
+.BGBatman{
+    display: flex;
+    position: absolute;
+
+    background-image: url("../imgs/BGBatman.png");
+    width: 30vw;
+    height: 30vh;
+
+    background-size: cover;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    background-color: orange;
+
+    z-index: 2;
+
+}
+
+.Like{
+    position: absolute;
+    background-image: url('../imgs/Like.png');
+
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 3vw;
+    height: 3vw;
+
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.PerfilBatman{
+    background-image: url('../imgs/PerfilBatman.png');
+    background-size: 100%;
+    border-radius: 100%;
+
+    margin-left: 11vw;
+    margin-top: 22vh;
+
+    height: 8vw;
+    width: 8vw;
+
+}
+
+.NomeHeroi{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Tahoma";
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    margin-top: 4vh;
+
+    width: 30vw;
+}
+
+.TextoHeroi{
+    padding: 2vw;
+    text-align: justify;
+
+    font-family: "Tahoma";
+    font-size: 0.9rem;
+}
+
+.BotaoHeroi{
+
+    background-color: #00669F;
+    color:white;
+    border-color: #00669F;
+    border-radius: 7px;
+    font-family: "Tahoma";
+
+
+    margin-left: 7vw;
+
+    width: 16vw;
+    height: 6vh;
+}
+
+.BGMaravilha{
+    background-image: url("../imgs/BGMaravilha.png");
+    width: 30vw;
+    height: 30vh;
+
+    background-size: cover;
+    background-position: center;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    background-color: orange;
+}
+
+.PerfilMaravilha{
+    background-image: url('../imgs/PerfilMaravilha.png');
+    background-size: 100%;
+    border-radius: 100%;
+
+    margin-left: 11vw;
+    margin-top: 22vh;
+
+    height: 8vw;
+    width: 8vw;
+}
+
+.BGSuper{
+    background-image: url("../imgs/BGSuper.png");
+    width: 30vw;
+    height: 30vh;
+
+    background-size: cover;
+    background-position: center;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    background-color: orange;
+}
+
+.PerfilSuper{
+    background-image: url('../imgs/PerfilSuper.png');
+    background-size: 100%;
+    border-radius: 100%;
+
+    margin-left: 11vw;
+    margin-top: 22vh;
+
+    height: 8vw;
+    width: 8vw;
+}
+
+.BGArleq{
+    background-image: url("../imgs/BGArleq.png");
+    width: 30vw;
+    height: 30vh;
+
+    background-size: cover;
+    background-position: center;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    background-color: orange;
+}
+
+.PerfilArleq{
+    background-image: url('../imgs/PerfilArleq.png');
+    background-size: 100%;
+    border-radius: 100%;
+
+    margin-left: 11vw;
+    margin-top: 22vh;
+
+    height: 8vw;
+    width: 8vw;
+}
+
+.FaixaFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Tahoma";
+    background-color: #00669F;
+    color: white;
+
+    width: 100vw;
+    height: 20vh;
+}
+
+.LogoGitHub{
+    position:absolute;
+    height: 8vh;
+
+    align-self: center;
+
+    margin-left: 30vw;
+}
+
+@media (max-width:768px){
+
+    .H1Desconto{
+        font-size: 1.3rem;
+        padding-left: 5vw;
+        height: 4vh;
+    }
+
+    .H2Card{
+        font-size: 2.7rem;
+        
+        padding-left: 5vw;
+        height: 12vh;
+    }
+
+    .FaixaMain{
+        padding-top: 5vh;
+        padding-bottom: 0vh;
+    }
+
+    .CaixaHeroi{
+        width: 40vw;
+        height:60vh;
+        margin-inline: 0vw;
+    }
+
+    .BGBatman{
+        width: 40vw;  
+        height: 20vh;
+    }
+
+    .BGMaravilha{
+        width: 40vw;  
+        height: 20vh;
+    }
+
+    .BGSuper{
+        width: 40vw;  
+        height: 20vh;
+    }
+
+    .BGArleq{
+        width: 40vw;  
+        height: 20vh;
+    }
+
+    .Like{
+        width: 6vw;  
+        height: 6vh;
+    }
+
+    .PerfilBatman{
+        margin-left: 14vw;
+        margin-top: 15vh;
+
+        height: 12vw;
+        width: 12vw;
+    }
+
+    .PerfilMaravilha{
+        margin-left: 14vw;
+        margin-top: 15vh;
+
+        height: 12vw;
+        width: 12vw;
+    }
+
+    .PerfilSuper{
+        margin-left: 14vw;
+        margin-top: 15vh;
+
+        height: 12vw;
+        width: 12vw;
+    }
+
+    .PerfilArleq{
+        margin-left: 14vw;
+        margin-top: 15vh;
+
+        height: 12vw;
+        width: 12vw;
+    }
+
+    .CaixaTexto{
+        width: 40vw;
+        height: 30vh;
+
+        margin-top: 20vh;
+    }
+
+    .NomeHeroi{
+        margin-top: 12vh;
+        margin-bottom: 2vh;
+        width: 40vw;
+    }
+
+    .TextoHeroi{
+        margin-bottom: 2vh;
+    }
+
+    .BotaoHeroi{
+        margin-left:12vw;
+    }
+
+    .FaixaFooter{
+        font-size: 1rem;
+    }
+
+    .LogoGitHub{
+        width: 20vw;
+        height: auto;
+
+        margin-left: 35vw;
+    }
+
+}
+
+@media (max-width: 460px){
+
+    .H1Desconto{
+        padding-left: 8vw;
+        height: 3vh;
+        font-size: 0.8rem;
+        
+    }
+
+    .H2Card{
+        padding-left: 8vw;
+        height: 9vh;
+        font-size: 2rem;
+    }
+
+    .CaixaHeroi{
+        width: 50vw;
+        height:65vh;
+        margin-inline: 25vw;
+    }
+
+    .BGBatman{
+        width: 50vw;
+    }
+
+    .Like{
+        width: 6vw;
+        height: 6vw;
+
+        margin-left: 4vw;
+        margin-top: 4vw;
+    }
+
+    .PerfilBatman{
+        margin-left: 17vw;
+        margin-top: 14vh;
+
+        height: 16vw;
+        width: 16vw;
+    }
+
+    .NomeHeroi{
+        width: 50vw;
+        font-size: 1rem;
+    }
+
+    .CaixaTexto{
+        width: 50vw;
+        margin-top: 22.5vh;
+    }
+
+
+    .TextoHeroi{
+        width: 50vw;
+        font-size: 0.7rem;
+    }
+
+    .BotaoHeroi{
+        width:30vw;
+        margin-left: 10vw;
+    }
+
+    .BGMaravilha{
+        width: 50vw;
+    }
+
+    .PerfilMaravilha{
+        margin-left: 17vw;
+        margin-top: 14vh;
+
+        height: 16vw;
+        width: 16vw;
+    }
+
+    .BGSuper{
+        width: 50vw;
+    }
+
+    .PerfilSuper{
+        margin-left: 17vw;
+        margin-top: 14vh;
+
+        height: 16vw;
+        width: 16vw;
+    }
+
+    .BGArleq{
+        width: 50vw;
+    }
+
+    .PerfilArleq{
+        margin-left: 17vw;
+        margin-top: 14vh;
+
+        height: 16vw;
+        width: 16vw;
+    }
+
+    .FaixaFooter{
+        font-size: 0.7rem;
+        height: 6vh;
+    }
+
+    .LogoGitHub{
+        height: auto;
+        width: 15vw;
+
+        align-self: center;
+        margin-left: 35vw;
+    }
+
+
+}
