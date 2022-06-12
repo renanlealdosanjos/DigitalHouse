@@ -13,7 +13,7 @@ header{
 
 .FaixaHeader{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
     height: 30vh;
     width: 100vw;
@@ -36,17 +36,11 @@ header{
     width: 20vw;
 }
 
-.MenuHeader{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 70vw;
-    height: 20vh;
-}
-
 .MenuSuperior{
     display:flex;
     justify-content: space-evenly;
+
+    width: 60vw;
 }
 
 .ItemNav{
@@ -57,7 +51,6 @@ header{
     border-radius: 36px;
     width: 15vw;
     height: 10vh;
-    margin-inline-end: 2vw;
 
     font-family: 'Arial';
     font-size: 2vw;
@@ -90,53 +83,51 @@ header{
 
 .Titulo{
     display:flex;
-    align-items: stretch;
-    justify-items: center;
+    justify-content: flex-start;
     align-items: center;
     padding-left: 5vw;
-    padding-top: 10vh;
+    margin-top: 10vh;
 
     font-family: 'Arial';
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 2rem;
+    width: 100%;
 }
 
 .CaixaFotos{
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    margin-top: 5vh;
+    padding-top: 5vh;
+    padding-bottom:5vh;
 }
 
 .Foto1{
     background-image: url("../img/retrato1.jpg");
     background-size: cover;
     border-radius: 31px;
-    height: 534px;
-    width: 335px;
-    margin-inline-end: 5vw;
+    height: 70vh;
+    width:30vw;
+
 }
 
 .Foto2{
     background-image: url("../img/retrato2.jpg");
     background-size: cover;
     border-radius: 31px;
-    height: 534px;
-    width: 335px;
-    padding: 30px;
-    margin-inline-end: 5vw;
+    height: 70vh;
+    width:30vw;
+
 }
 
 .Foto3{
     background-image: url("../img/retrato3.jpg");
     background-size: cover;
     border-radius: 31px;
-    height: 534px;
-    width: 335px;
-    padding: 30px;
-    margin-inline-end: 5vw;
+    height: 70vh;
+    width:30vw;
 }
 
 .CaixaVideo{
@@ -153,23 +144,24 @@ header{
     flex-direction: row;
     width: 100vw;
     height: 100%;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    background: #C4C4C4;
+    background-color: #C4C4C4;
 }
 
 .TituloRodape{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
     font-family: 'Arial';
     font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 75px;
+    font-weight: bold;
+    font-size: 3rem;
+
     width: 100vw;
-    padding-left: 80px;
-    padding-top: 40px;
+    padding-left: 5vw;
+    margin-top: 5vh;
 
 }
 
@@ -177,181 +169,158 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    padding-bottom: 80px;
+    width: 50vw;
+    margin-bottom: 80px;
 }
 
 .Item1{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width:141px;
-    margin-inline: 50px;
-
+    height: 35vh;
+    width:20vw;
 }
 
 .LogoLinkedIn{
     background-image: url("../img/Logo\ Linkedin.png");
     background-size: cover;
-    height: 141px;
-    width: 141px;
+    height: 20vh;
+    width: 20vh;
     border-radius: 100%;
-    margin: 40px;
 }
 
 .TextoLinkedIn{
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2rem;
 }
 
 .Item2{
-    display:flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    height: 100%;
-    width: 141px;
-    margin-inline: 50px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 35vh;
+    width:20vw;
 }
 
 .LogoGitHub{
     background-image: url("../img/Logo\ GitHub.png");
     background-size: cover;
-    height: 141px;
-    width: 141px;
+    background-size: cover;
+    height: 20vh;
+    width: 20vh;
     border-radius: 100%;
-    margin: 40px;
 }
 
 .TextoGitHub{
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2rem;
 }
 
 @media(max-width: 460px){
 
     .FaixaHeader{
-        height: 70vh;
+        height: auto;
         width: 100vh;
+        padding-top:4vh;
+        padding-bottom: 2vh;
     }
 
     .LogoHeader{
-        width: 80vw;
-        height: 20vh;
-        margin-top: 2vh;
-        margin-bottom: 0vh;
-    }
-
-    .MenuHeader{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        justify-content: center;
-        align-items: center;
-
-        margin-top:-3vh;
-        width: 100vw;
-        height: 40vh;
+        width: 60vw;
+        height: 15vh;
+        margin-bottom: 2vh;
     }
 
     .MenuSuperior{
         display:flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
+        width: 50vw;
+
     }
 
     .ItemNav{
-        width: 80vw;
-        height: 10vh;
+        width: 50vw;
+        height: 6vh;
         font-size: 1.5rem;
-        margin-bottom: 3vh;
+        margin-bottom: 2vh;
     }
 
     .Faixa1Main{
-        height: 70vh;
+        display: none;
     }
 
     .Titulo{
-        font-size: 2rem;
-        text-align:center;
-        margin-left: 5vw;
-        width: 80vw;
+        width: 100vw;
+        margin-top: 5vh;
+        font-size: 1.8rem;
+        padding-left: 10vw;
     }
 
     .CaixaFotos{
-        width: 100vw;
+        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 2vh;
     }
 
     .Foto1{
         width: 80vw;
-        margin: 4vw;
+        height: 60vh;
+        
+        margin-bottom: 3vh;
     }
 
     .Foto2{
         width: 80vw;
-        margin: 4vw;
+        height: 60vh;
+
+        margin-bottom: 3vh;
     }
 
     .Foto3{
         width: 80vw;
-        margin: 4vw;
-    }
-
-    .CaixaVideo{
-        width: 100vw;
+        height: 60vh;
     }
 
     .TituloRodape{
-        font-size: 3rem;
-        justify-content: center;
-        padding: 0vw;
+        padding-left: 10vw;
         margin-top: 5vh;
     }
 
     .CaixaItens{
+        flex-wrap: wrap;
         justify-content:center;
+        align-items: flex-end;
+
+        width: 50%;
+
+        padding-top: 5vh;
     }
 
     .Item1{
-        margin:0%;
-        margin-inline-end: 5vw;
+        width: 30vw;
+        height: 20vh;
+        margin-bottom: 3vh;
     }
 
     .LogoLinkedIn{
         height: 12vh;
         width: 12vh;
-        margin-bottom: 2vh;
-    }
-
-    .TextoLinkedIn{
-        font-size: 1.5rem;
     }
 
     .Item2{
-        margin:0%;
+        width: 30vw;
+        height: 20vh;
     }
 
     .LogoGitHub{
         height: 12vh;
         width: 12vh;
-        margin-bottom: 2vh;
     }
-
-    .TextoGitHub{
-        font-size: 1.5rem;
-    }
-
 }
