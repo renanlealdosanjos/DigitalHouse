@@ -24,14 +24,18 @@ header{
 
 .LogoHeader{
     background-image: url("../img/BrasãoNiterói.jpg");
-    background-size: 50%;
+    background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-color:white;
 
     border: 1px solid #000000;
     border-radius: 36px;
+    
     margin-left: 0px;
+    
+    padding-top: 5vh;
+
     height: 20vh;
     width: 20vw;
 }
@@ -52,7 +56,7 @@ header{
     width: 15vw;
     height: 10vh;
 
-    font-family: 'Arial';
+    font-family: 'Calibri';
     font-size: 2vw;
     font-weight:400;
     color: #000000;
@@ -67,11 +71,36 @@ header{
 }
 
 .Faixa1Main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
     background-image: url("../img/Background.jpg");
     width: 100vw;
     height: 90vh;
     background-size: cover;
     background-position: center;
+}
+
+.Info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: white;
+    font-family: "Arial";
+    font-size: 1.2rem;
+
+    text-align: justify;
+
+    width: 40vw;
+    padding: 3vw;
+    margin-right: 3vw;
+
+}
+
+.Negrito{
+    font-weight: bold;
 }
 
 .Faixa2Main{
@@ -88,7 +117,7 @@ header{
     padding-left: 5vw;
     margin-top: 10vh;
 
-    font-family: 'Arial';
+    font-family: 'Gotham';
     font-style: normal;
     font-weight: bold;
     font-size: 2rem;
@@ -154,7 +183,7 @@ header{
     justify-content: flex-start;
     align-items: center;
 
-    font-family: 'Arial';
+    font-family: 'Gotham';
     font-style: normal;
     font-weight: bold;
     font-size: 3rem;
@@ -168,7 +197,7 @@ header{
 .CaixaItens{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 50vw;
     margin-bottom: 80px;
 }
@@ -178,7 +207,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 35vh;
+    height: 30vh;
     width:20vw;
 }
 
@@ -191,10 +220,14 @@ header{
 }
 
 .TextoLinkedIn{
-    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
+    width: 20vw;
 }
 
 .Item2{
@@ -202,7 +235,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 35vh;
+    height: 30vh;
     width:20vw;
 }
 
@@ -216,7 +249,15 @@ header{
 }
 
 .TextoGitHub{
-    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+
+    width: 20vw;
+}
+
+a{
+    color: black;
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
@@ -233,7 +274,6 @@ header{
 
     .LogoHeader{
         width: 60vw;
-        height: 15vh;
         margin-bottom: 2vh;
     }
 
@@ -272,7 +312,7 @@ header{
     .Foto1{
         width: 80vw;
         height: 60vh;
-        
+
         margin-bottom: 3vh;
     }
 
