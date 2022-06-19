@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.Header1{
+    display: flex;
+    align-items: center;
+
+    background-color:#1CD1B0;
+
+    height: 3vh;
+    padding-left: 2vw;
+}
+
+.Header2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00669F;
+    height: 12vh;
+    padding-left: 1vw;
+}
+
+.H2Item2{
+    color:white; 
+    font-size: 2rem;
+
+    padding-left: 1vw;
+}
+
+.Header3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: #001D2D;
+    Color:white;
+    padding-right: 2vw;
+}
+
+.H3Caixa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 6vw;
+    height: 5vh;
+}
+
+.Main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    height: 80vh;
+}
+
+.M1Caixa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 2.5vh;
+}
+
+.CaixaHeroi{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    width: 20vw;
+    height:70vh;
+
+    margin-inline: 1vw;
+
+    background-color: #F3F3F3;
+}
+
+.CaixaTexto{
+    display: flex;
+    position: absolute;
+
+    justify-content: flex-start;
+    align-content: center;
+    justify-items: center;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    width: 20vw;
+    height: 40vh;
+
+    margin-top: 30vh;
+}
+
+.BGBatman{
+    display: flex;
+    position: absolute;
+
+    background-image: url("../imgs/BGBatman.png");
+    width: 20vw;
+    height: 25vh;
+
+    background-size: cover;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    z-index: 2;
+}
+
+.Like{
+    position: absolute;
+    background-image: url('../imgs/Like.png');
+
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 2vw;
+    height: 2vw;
+
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.PerfilBatman{
+  
+    background-image: url('../imgs/PerfilBatman.png');
+    background-size: 100%;
+    border-radius: 100%;
+
+    margin-left: 7vw;
+    margin-top: 18vh;
+
+    height: 6vw;
+    width: 6vw;
+}
+
+.NomeHeroi{
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    font-family: "Tahoma";
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    width: 100%;
+}
+
+.TextoHeroi{
+    padding: 1vw;
+    text-align: justify;
+
+    font-family: "Tahoma";
+    font-size: 0.85rem;
+}
+
+.BotaoHeroi{
+
+    background-color: #00669F;
+    color:white;
+    border-color: #00669F;
+    border-radius: 7px;
+    font-family: "Tahoma";
+
+    margin-left: 5vw;
+
+    width: 10vw;
+    height: 6vh;
+}
+
+.BGMaravilha{
+    background-image: url("../imgs/BGMaravilha.png");
+    width: 20vw;
+    height: 25vh;
+
+    background-size: cover;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    z-index: 2;
+}
+
+.PerfilMaravilha{
+    background-image: url('../imgs/PerfilMaravilha.png');
+    background-size: 100%;
+    border-radius: 100%;
+
+    margin-left: 7vw;
+    margin-top: 18vh;
+
+    height: 6vw;
+    width: 6vw;
+}
+
+.BGSuper{
+    background-image: url("../imgs/BGSuper.png");
+    width: 20vw;
+    height: 25vh;
+
+    background-size: cover;
+
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+
+    z-index: 2;
+}
+
+.PerfilSuper{
+    background-image: url('../imgs/PerfilSuper.png');
+    background-size: 100%;
+    border-radius: 100%;
+
+    margin-left: 7vw;
+    margin-top: 18vh;
+
+    height: 6vw;
+    width: 6vw;
+}
+
+.BotaoMais{
+    position: absolute;
+
+    height: 5vw;
+    width: 5vw;
+
+    margin-left: 5%;
+
+    border-radius: 100%;
+    background-color: #00669F;
+    border-width: 0px;
+    color: white;
+    font-size: 3vw;
+}
+
+.BotaoMais:hover{
+    background-color:#001D2D;
+}
+
+.Footer1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    height: 10vh;
+}
