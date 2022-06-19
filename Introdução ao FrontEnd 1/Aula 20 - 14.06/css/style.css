@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+.Header1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+
+    height: 10vh;
+}
+
+.H1Caixa1{
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    margin-left: 5vw;
+
+    width: 20vw;
+}
+
+.H1Caixa2{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5vw;
+
+    width: 40vw;
+}
+
+.H1C2Item1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+
+    font-size: 0.9rem;
+}
+
+.Main1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 60vh;
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Main1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.M1Caixa1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+
+    margin-bottom: 5vh;
+}
+
+.M1Caixa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #D01418;
+    color: white;
+    border-radius: 1vh;
+
+    width: 20%;
+    height: 7vh;
+}
+
+.Main2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5vh;
+
+    background-color: #C4C4C4;
+}
+
+.M2Caixa1{
+    width: 70vw;
+    margin: 5vh;
+}
+
+.M2C1Item1{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.M2C1Item2{
+    display: flex;   
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 3vh;
+}
+
+.M2C1I2Sub1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 30%;
+    height: 40vh;
+
+}
+
+.M2C1I2S1Conteudo1{
+    width: 100%;
+    height: 60%;
+
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Produto 1.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.M2C1I2S1Conteudo2{
+    display: flex;
+    align-items: center;
+
+    font-size: 1.5rem;
+
+    height: 10%;
+    width: 100%;
+
+    padding-left: 2vw;
+}
+
+.M2C1I2S1Conteudo3{
+    display: flex;
+    align-items: center;
+
+    font-size: 0.8rem;
+
+    height: 10%;
+    width: 100%;
+
+    padding-left: 2vw;
+}
+
+.M2C1I2S1Conteudo4{
+    display: flex;
+    align-items: center;
+
+    color: #619D00;
+    font-size: 0.7rem;
+    
+    height: 5%;
+    width: 100%;
+
+    padding-left: 2vw;
+}
+
+.M2C1I2S2Conteudo1{
+    width: 100%;
+    height: 60%;
+
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Produto 2.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.M2C1I2S3Conteudo1{
+    width: 100%;
+    height: 60%;
+
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Produto 3.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+
+.M2Caixa2{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    width:70vw;
+
+    margin:5vh;
+}
+
+.M2C2Item1{
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 3vh;
+
+    font-size: 2rem;
+}
+
+.M2C2Item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/banner 1.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 5px;
+
+    height: 20vh;
+    width: 45%;
+}
+
+.M2C2Item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+
+    background-image:url("/Aula\ 20\ -\ 14.06/imgs/banner 2.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 5px;
+    
+    height: 20vh;
+    width: 45%;
+}
+
+.Footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+
+    height: 30vh;
+}
+
+.F1Caixa1{
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    margin-left: 5vw;
+
+    height: 10vh;
+    width: 20vw;
+}
+
+.F1Caixa2{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.F1C2Item1{
+    width: 100%;
+
+    color: white;
+    font-size: 1.3rem;
+
+    margin-bottom: 2vh;
+}
+
+.F1C2Item2{
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    width: 100%;
+}
+
+.F1C2I2Sub1{
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Twitter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+}
+
+.F1C2I2Sub2{
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Facebook.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+}
+
+.F1C2I2Sub3{
+    background-image: url("/Aula\ 20\ -\ 14.06/imgs/Instagram.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+}
+
+.Footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.8rem;
+
+    background-color: #C4C4C4;
+    height: 5vh;
+}
+
+@media (max-width: 460px){
+
+    .H1Caixa1{
+        width: 25vw;
+        margin-left: 3vw;
+    }
+
+    .H1Caixa2{
+        width: 60vw;
+        margin-right: 3vw;
+    }
+
+    a{font-size: 0.7rem;
+    }
+
+    .M1Caixa1{
+        text-align: center;
+        width: 80%;
+        font-size: 2rem;
+    }
+
+    .M1Caixa2{
+        width: 50vw;
+    }
+
+    .M2C1Item2{
+        flex-wrap: wrap;
+    }
+
+    .M2C1I2Sub1{
+        width: 100%;
+        margin-bottom: 5vw;
+    }
+
+    .M2C1I2S1Conteudo2{
+        margin-top: 1vh;
+        padding-left: 7.5vw;
+    }
+
+    .M2C1I2S1Conteudo3{
+        padding-left: 7.5vw;
+    }
+
+    .M2C1I2S1Conteudo4{
+        padding-left: 7.5vw;
+    }
+
+    .M2C2Item2{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .M2C2Item3{
+        width: 100%;
+    }
+
+    .Footer1{
+        padding: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .F1Caixa1{
+        margin: 0px;
+
+        width: 60vw;
+    }
+
+    .F1Caixa2{
+        margin: 0px;
+        margin-top: 5vh;
+
+        width: 60vw;
+    }
+
+    .F1C2Item1{
+        display: flex;
+        justify-content: center;
+
+    }
+}
