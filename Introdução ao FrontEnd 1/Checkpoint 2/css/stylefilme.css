@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.Header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+}
+
+.H1Caixa1{
+    margin-left: 3vw;
+}
+
+.H1Caixa2{
+    margin-right: 3vw;
+}
+
+a{
+    padding-right: 2vw;
+    text-decoration: none;
+    color: #626262;
+    font-size: 1.1rem;
+}
+
+#Home{
+    color: #E51B3E;
+}
+
+.Main{
+    color:#E5E5E5;    
+}
+
+.Main1{
+    background-image: url("/Checkpoint\ 2/imgs/BG1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 40vh;
+}
+
+.Main2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vh;
+}
+
+.M2Caixa1{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.M2Caixa2{
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+}
+
+.M2Caixa3{
+    width: 100%;
+    padding-bottom: 3vh;
+}
+
+.M2Caixa4{
+    width: 20%;
+}
+
+.M2C4Item1{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.M2C4Item2{
+    color:rgba(0, 133, 255, 0.75);
+}
+
+.M2Caixa5{
+    width: 40%;
+}
+
+.M2Caixa6{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    width: 100vw;
+}
+
+.M2Caixa7{
+    width: 100vw;
+    padding-bottom: 5vh;
+}
+
+.Footer1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #171717;;
+}
+
+.F1Caixa1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+
+    width: 30vw;
+    height: 25vh;
+    padding: 3vw;
+}
+
+.F1C1Item1{
+    width: 100%;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.F1C1Item2{
+    width: 100%;
+    margin-top: 2vh;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.F1C1Item3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.F1C1I3Sub2{
+    padding-left: 1vw;
+}
+
+.F1C2Item1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.F1C2Item2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2vh;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.F1C2Item3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.F1C2I3Sub2{
+    padding-left: 1vw;
+}
+
+.F1C3Item1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.F1C3Item2{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2vh;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.F1C3Item3{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.F1C3I3Sub1{
+    padding-right: 1vw;
+}
+
+.F1Caixa4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    color:rgba(255, 255, 255, 0.5);
+
+    width: 100%;
+    height: 10vh;
+}
