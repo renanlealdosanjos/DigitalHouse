@@ -36,6 +36,9 @@ a:hover{
     color: #E51B3E;
 }
 
+#BotaoAbrir{
+    color: white;
+}
 
 #Home{
     color: #E51B3E;
@@ -186,6 +189,7 @@ a:hover{
 
 .M2C2I1S1Conteudo2:hover{
     background-color: #E51B3E;
+    color: white;
     transition: transform 2s;
     transform: translateX(20px) scale(1.5);
 }
@@ -389,13 +393,17 @@ a:hover{
     }
 
     .H1Caixa2{
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 3vw;
+        width: 12vw;
+        height: 12vw;
+
+        background-image: url("../css/Menu.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     a{
-    padding-right: 0vw;
+        display: none;
     }
 
     .M1Caixa1{

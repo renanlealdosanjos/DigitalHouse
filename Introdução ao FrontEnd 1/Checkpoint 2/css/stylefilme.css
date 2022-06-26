@@ -213,3 +213,79 @@ a{
     width: 100%;
     height: 10vh;
 }
+
+@media(max-width: 460px){
+
+    .H1Caixa1{
+        margin-left: 3vw;
+    }
+
+    .H1Caixa2{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3vw;
+    }
+
+    a{
+    padding-right: 0vw;
+    }
+
+    .M2Caixa4{
+
+        width: 25vw;
+    }
+
+    .M2Caixa5{
+        width: 50vw;
+    }
+
+    .F1Caixa1{
+        width: 100%;
+        height: 15vh;
+        margin-top:2vh;
+        margin-bottom: 2vh;
+    }
+
+    .F1C1Item1{
+        margin-left: 5vw;
+    }    
+
+    .F1C1Item2{
+        margin-left: 5vw;
+    }
+
+    .F1C1Item3{
+        margin-left: 5vw;
+    }
+
+    .F1C2Item1{
+        margin-left: 5vw;
+        justify-content: flex-start;
+    }    
+
+    .F1C2Item2{
+        margin-left: 5vw;
+        justify-content: flex-start;
+    }
+
+    .F1C2Item3{
+        margin-left: 5vw;
+        justify-content: flex-start;
+    }
+
+    .F1C3Item1{
+        margin-left: 5vw;
+        justify-content: flex-start;
+    }    
+
+    .F1C3Item2{
+        margin-left: 5vw;
+        justify-content: flex-start;
+    }
+
+    .F1C3Item3{
+        margin-left: 5vw;
+        justify-content: flex-start;
+    }
+
+}
