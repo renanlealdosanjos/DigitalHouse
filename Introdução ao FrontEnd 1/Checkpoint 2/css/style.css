@@ -314,6 +314,10 @@ a:hover{
     margin-top: 2vh;
 }
 
+.F1C1I3Sub1{
+    padding: 0px;
+}
+
 .F1C1I3Sub2{
     padding-left: 1vw;
 }
@@ -342,8 +346,12 @@ a:hover{
     margin-top: 2vh;
 }
 
+.F1C2I3Sub1{
+    padding: 0.5vw;
+}
+
 .F1C2I3Sub2{
-    padding-left: 1vw;
+    padding:0.5vw;
 }
 
 .F1C3Item1{
@@ -402,7 +410,7 @@ a:hover{
         background-repeat: no-repeat;
     }
 
-    a{
+    .LinkMenu{
         display: none;
     }
 
