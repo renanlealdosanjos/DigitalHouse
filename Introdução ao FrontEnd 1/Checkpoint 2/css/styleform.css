@@ -99,7 +99,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 45vw;
+    width: 80vw;
     height: 50vh;
     border-radius: 12px;
 }
@@ -142,7 +142,7 @@ a{
     justify-content: center;
     align-items: center;
 
-    width: 80%;
+    width: 35vw;
     height: 5vh;
 
     margin-top:5vh;
@@ -152,4 +152,22 @@ a{
     color:white;
 
     border-radius: 1vh;
+}
+
+@media(max-width: 460px){
+
+    .LinkMenu{
+        display: none;
+    }
+
+    .H1Caixa2{
+        width: 12vw;
+        height: 12vw;
+
+        background-image: url("../css/Menu.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
 }
